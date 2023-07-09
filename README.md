@@ -4,7 +4,7 @@ This repository contains a collection of projects that I have built using HTML, 
 ## Projects
 
 1. Digital Clock
-   * Live demo - (timetrackerweb.netlify.app)
+   * Live demo - https://timetrackerweb.netlify.app/
 
 ## Getting Started
 
