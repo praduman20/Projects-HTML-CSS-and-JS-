@@ -5,6 +5,8 @@ This repository contains a collection of projects that I have built using HTML, 
 
 1. Digital Clock
    * Live demo - https://timetrackerweb.netlify.app/
+2. Math quiz app
+   * Live demo - https://quizfied.netlify.app/
 
 ## Getting Started
 
