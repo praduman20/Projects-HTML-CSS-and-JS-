@@ -7,6 +7,8 @@ This repository contains a collection of projects that I have built using HTML, 
    * Live demo - https://timetrackerweb.netlify.app/
 2. Math quiz app
    * Live demo - https://quizifiedgame.netlify.app/
+3. Real-time character counter
+   * Live demo - https://countyourcharacters.netlify.app/
 
 ## Getting Started
 
