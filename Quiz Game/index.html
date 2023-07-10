@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="note">
+      <h3 class="note-heading">
+        Note : To set the score to 0 follow the steps -
+      </h3>
+      <ol type="1" class="note-style">
+        <li>Right click and go to inspect.</li>
+        <li>
+          Click on application(Windows) or storage(MacOS) and then local
+          storage.
+        </li>
+        <li>
+          Click clear in case of Windows and set the value of score to 0 in case
+          of MacOS.
+        </li>
+      </ol>
+    </div>
+    <form class="form" id="form">
+      <h4 class="score" id="score">Score : 0</h4>
+      <h1 id="question">What is 1 * 1?</h1>
+      <input
+        class="input"
+        id="input"
+        type="text"
+        placeholder="Enter your answer here"
+        autofocus
+        autocomplete="off"
+      />
+      <button class="btn" onclick="getNextquestion()">Submit</button>
+    </form>
+  </body>
+  <script src="index.js"></script>
+</html>

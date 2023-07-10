@@ -1,0 +1,83 @@
+body {
+  background-image: url(./images/quizBg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* text-align: center; */
+  font-family: sans-serif;
+}
+
+.note {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 1vh;
+}
+
+.note ol {
+  line-height: 1.5rem;
+}
+
+.note-heading {
+  padding-left: 18px;
+}
+
+.note-style {
+  padding-right: 10px;
+}
+
+.form {
+  background-color: #3a3027;
+  padding: 20px;
+  box-shadow: 0 4px 8px #d8d8d8;
+  border-radius: 10px;
+  margin: 10px;
+  opacity: 0.8;
+}
+
+#question {
+  color: white;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  border: solid 4px green;
+  color: green;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+}
+
+.btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 20px 0px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+}
+
+.score {
+  color: white;
+  text-align: right;
+  font-size: 22px;
+}
