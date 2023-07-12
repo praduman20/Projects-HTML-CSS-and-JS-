@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  background-image: url(./images/color.jpg);
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-container {
+  background-color: orange;
+  filter: brightness(0.8);
+  width: 300px;
+  height: 150px;
+  color: white;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: solid black 2px;
+  border-radius: 10px;
+}
