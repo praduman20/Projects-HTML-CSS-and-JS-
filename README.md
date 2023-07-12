@@ -11,6 +11,8 @@ This repository contains a collection of projects that I have built using HTML, 
    * Live demo - https://countyourcharacters.netlify.app/
 4. Site with sticky navbar
    * Live demo - https://stickynavbar1.netlify.app/
+5. Random Color generator
+   * Live demo - https://randomhexcolorcodes.netlify.app/
 
 ## Getting Started
 
