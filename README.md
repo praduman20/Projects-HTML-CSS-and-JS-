@@ -3,12 +3,14 @@ This repository contains a collection of projects that I have built using HTML, 
 
 ## Projects
 
-1. Digital Clock
+1. Live digital Clock
    * Live demo - https://timetrackerweb.netlify.app/
 2. Math quiz app
    * Live demo - https://quizifiedgame.netlify.app/
 3. Real-time character counter
    * Live demo - https://countyourcharacters.netlify.app/
+4. Site with sticky navbar
+   * Live demo - https://stickynavbar1.netlify.app/
 
 ## Getting Started
 
