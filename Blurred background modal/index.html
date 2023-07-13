@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pop-up Modal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container active">
+      <h1>Welcome to ShopStock</h1>
+      <button class="btn">Click to join</button>
+    </div>
+    <div class="modal active">
+      <h1 class="intro">SUBSCRIBE FOR 15% OFF</h1>
+      <p class="info">
+        You'll be the first to learn about our special deals, offers, and newest
+        additions. Get 15% off your first purchase when you sign up.
+      </p>
+      <div class="form">
+        <input
+          type="text"
+          placeholder="Email"
+          class="email-input"
+          autocomplete="off"
+        />
+        <button class="btn-signup">SIGN UP</button>
+      </div>
+      <p class="end">See our privacy policy</p>
+      <div class="close-btn">
+        <i
+          class="fa-sharp fa-regular fa-xmark fa-beat-fade fa-xl"
+          style="color: #ffffff"
+        ></i>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

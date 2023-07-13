@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-image: url(./images/shoppingBg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.active.container {
+  filter: brightness(0.7) blur(4px);
+}
+
+.container h1 {
+  font-size: 100px;
+  color: white;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  filter: blur(0.5px);
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  padding: 10px 20px;
+  width: 160px;
+  cursor: pointer;
+  background-color: #343434;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  border: 0.5px solid white;
+  margin-bottom: 10vh;
+}
+
+.btn:hover {
+  filter: brightness(0.8);
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./images/modalPic.jpg);
+  background-size: cover;
+  width: 40vw;
+  height: fit-content;
+}
+
+.intro {
+  color: white;
+  margin-top: 6vh;
+}
+
+.info {
+  color: white;
+  font-size: 18px;
+  padding: 0 5vw;
+  text-align: center;
+}
+
+.form {
+  width: 85%;
+  margin-top: 2.5vh;
+  display: flex;
+  justify-content: baseline;
+}
+
+.email-input {
+  width: 70%;
+  height: 4vh;
+  font-size: 20px;
+  padding-left: 1vw;
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.email-input::placeholder {
+  font-size: 20px;
+  padding-left: 0.5vw;
+}
+
+.btn-signup {
+  width: 25%;
+  height: 4.82vh;
+  font-size: 17px;
+  background-color: #343434;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-signup:hover {
+  filter: brightness(0.8);
+}
+
+.end {
+  color: white;
+  margin-bottom: 1.8vh;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.close-btn {
+  margin-bottom: 1.5vh;
+  cursor: pointer;
+}
+
+.active.modal {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 650px) {
+  .container h1 {
+    font-size: 65px;
+  }
+  .modal {
+    width: 80vw;
+  }
+  .intro {
+    font-size: 1rem;
+  }
+  .btn-signup {
+    font-size: 12px;
+  }
+  .email-input::placeholder {
+    font-size: 15px;
+  }
+}
