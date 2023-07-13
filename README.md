@@ -13,6 +13,8 @@ This repository contains a collection of projects that I have built using HTML, 
    * Live demo - https://stickynavbar1.netlify.app/
 5. Random Color generator
    * Live demo - https://randomhexcolorcodes.netlify.app/
+6. Modal with blurred background
+   * Live demo - https://blurredbackmodal.netlify.app/
 
 ## Getting Started
 
