@@ -15,6 +15,8 @@ This repository contains a collection of projects that I have built using HTML, 
    * Live demo - https://randomhexcolorcodes.netlify.app/
 6. Modal with blurred background
    * Live demo - https://blurredbackmodal.netlify.app/
+7. Blur scroll effect
+   * Live demo - https://blurscrolleffect.netlify.app/
 
 ## Getting Started
 
