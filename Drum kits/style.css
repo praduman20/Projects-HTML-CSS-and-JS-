@@ -1,0 +1,52 @@
+body {
+  background-image: url("./images/bg.jpg");
+  margin: 0;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 65px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 4px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  white-space: nowrap; /* humesha hai na heading screen choti krne pe 2 line me aa jati hai to use hatane k liye */
+}
+
+.container {
+  text-align: center;
+}
+
+.btn {
+  padding: 30px 50px;
+  background-color: white;
+  border: none;
+  margin: 10px;
+  min-width: 200px; /* jab andar k letters kam zydada hote hai toh element ki size badi choti ho  jati hai use hatane k liye use min-width */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  background-image: url(./images/tom.png);
+  background-size: cover;
+  color: white;
+  height: 15vh;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 7 00;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  color: lightgray;
+}
+
+.btn:active {
+  background-size: 105%;
+}
