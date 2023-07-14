@@ -16,7 +16,7 @@ h1 {
   letter-spacing: 4px;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-  white-space: nowrap; /* humesha hai na heading screen choti krne pe 2 line me aa jati hai to use hatane k liye */
+  white-space: nowrap;
 }
 
 .container {
@@ -28,8 +28,7 @@ h1 {
   background-color: white;
   border: none;
   margin: 10px;
-  min-width: 200px; /* jab andar k letters kam zydada hote hai toh element ki size badi choti ho  jati hai use hatane k liye use min-width */
-  border-radius: 10px;
+  min-width: 200px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   background-image: url(./images/tom.png);
   background-size: cover;
