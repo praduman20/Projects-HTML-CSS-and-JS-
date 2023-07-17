@@ -21,6 +21,8 @@ This repository contains a collection of projects that I have built using HTML, 
    * Live demo - https://whip-lash.netlify.app/
 9. Random Photos with load more button
    * Live demo - https://randomsnaps.netlify.app/
+10. Image Slider
+    * Live demo - https://piccarousel.netlify.app/
 
 ## Getting Started
 
