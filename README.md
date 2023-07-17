@@ -19,6 +19,8 @@ This repository contains a collection of projects that I have built using HTML, 
    * Live demo - https://blurscrolleffect.netlify.app/
 8. Drum kits
    * Live demo - https://whip-lash.netlify.app/
+9. Random Photos with load more button
+   * Live demo - https://randomsnaps.netlify.app/
 
 ## Getting Started
 
