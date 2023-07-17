@@ -23,6 +23,8 @@ This repository contains a collection of projects that I have built using HTML, 
    * Live demo - https://randomsnaps.netlify.app/
 10. Image Slider
     * Live demo - https://piccarousel.netlify.app/
+11. Light/dark mode toggle
+    * Live demo - https://darklight-theme.netlify.app/
 
 ## Getting Started
 
