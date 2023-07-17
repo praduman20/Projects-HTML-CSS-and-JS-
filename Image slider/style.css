@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e3f4f4;
+}
+
+.slider-container {
+  position: relative;
+  width: 550px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.image-conatiner {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.btn {
+  position: absolute;
+  color: white;
+  transform: translateY(-50%);
+  top: 50%;
+  font-size: 20px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn.prev {
+  left: 10px;
+}
+
+.btn.next {
+  right: 10px;
+}
