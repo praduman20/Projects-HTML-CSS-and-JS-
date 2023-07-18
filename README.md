@@ -25,6 +25,8 @@ This repository contains a collection of projects that I have built using HTML, 
     * Live demo - https://piccarousel.netlify.app/
 11. Light/dark mode toggle
     * Live demo - https://darklight-theme.netlify.app/
+12. Different tabs Section
+    * Live demo - https://tabssection.netlify.app/
 
 ## Getting Started
 
