@@ -27,6 +27,8 @@ This repository contains a collection of projects that I have built using HTML, 
     * Live demo - https://darklight-theme.netlify.app/
 12. Different tabs Section
     * Live demo - https://tabssection.netlify.app/
+13. Rock Paper Scissor Game
+    * Live demo - https://therockpaperscissorgame.netlify.app/
 
 ## Getting Started
 
