@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(to left, gray, rgb(37, 35, 35));
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-heading {
+  text-align: center;
+  color: aqua;
+}
+
+.info-text {
+  text-align: center;
+  color: aqua;
+}
+
+.note-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+}
+
+.note-area {
+  height: 180px;
+  width: 270px;
+  resize: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.3);
+  outline: none;
+  box-sizing: border-box;
+  padding: 17px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.note-area::placeholder {
+  font-size: 20px;
+  color: white;
+  opacity: 40%;
+}
+
+.note-area:hover,
+.note-area:focus {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+  height: 180px;
+  width: 270px;
+  border: none;
+  color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
