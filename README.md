@@ -29,6 +29,8 @@ This repository contains a collection of projects that I have built using HTML, 
     * Live demo - https://tabssection.netlify.app/
 13. Rock Paper Scissor Game
     * Live demo - https://therockpaperscissorgame.netlify.app/
+14. Note Taker App
+    * Live demo - https://noteddown.netlify.app/
 
 ## Getting Started
 
