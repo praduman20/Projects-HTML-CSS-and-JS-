@@ -18,6 +18,7 @@ async function getWeather() {
     ${city}`);
 
   const weather = await response.json();
+  console.log(weather);
 
   if (page === 1) {
     weatherEl.innerHTML = "";
