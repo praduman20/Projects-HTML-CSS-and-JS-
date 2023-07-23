@@ -31,6 +31,8 @@ This repository contains a collection of projects that I have built using HTML, 
     * Live demo - https://therockpaperscissorgame.netlify.app/
 14. Note Taker App
     * Live demo - https://noteddown.netlify.app/
+15. Weather App -
+    * Livwe demo - https://weatherapp4080.netlify.app/
 
 ## Getting Started
 
