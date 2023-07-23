@@ -14,7 +14,7 @@ formEl.addEventListener("submit", (event) => {
 async function getWeather() {
   const city = cityEl.value;
   const response = await fetch(
-    `http://api.weatherapi.com/v1/current.json?key=2b18032e5c5b44168d175427232307&q=${city}`
+    `https://api.weatherapi.com/v1/current.json?key=2b18032e5c5b44168d175427232307&q=${city}`
   );
 
   const weather = await response.json();
