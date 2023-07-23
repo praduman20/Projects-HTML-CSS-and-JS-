@@ -13,12 +13,11 @@ formEl.addEventListener("submit", (event) => {
 
 async function getWeather() {
   const city = cityEl.value;
-  const response =
-    await fetch(`http://api.weatherstack.com/current?access_key=56acd07adde1fc65d0808e1dde9d7b2a&query=
-    ${city}`);
+  const response = await fetch(
+    `http://api.weatherapi.com/v1/current.json?key=2b18032e5c5b44168d175427232307&q=${city}`
+  );
 
   const weather = await response.json();
-  console.log(weather);
 
   if (page === 1) {
     weatherEl.innerHTML = "";
@@ -28,31 +27,29 @@ async function getWeather() {
   extraInfoEl.classList.add("extra_info");
   weatherEl.appendChild(extraInfoEl);
 
-  if (weather.error && weather.error.code === 104) {
+  if (weather.error && weather.error.code === 2007) {
     const errorInfo = document.createElement("p");
     errorInfo.classList.add("description");
     errorInfo.innerText =
       "Our monthly API request volume has been reached. Sorry for the inconvenience";
     weatherEl.insertBefore(errorInfo, extraInfoEl);
-  } else if (weather.error && weather.error.code === 601) {
+  } else if (weather.error && weather.error.code === 1003) {
     const errorInfo = document.createElement("p");
     errorInfo.classList.add("description");
     errorInfo.innerText =
-      "Either the city value is empty or spelling is incorrect. Please check and try again later.";
+      "The city value is empty or no location found matching parameter";
     weatherEl.insertBefore(errorInfo, extraInfoEl);
-  } else if (weather.error && weather.error.code === 615) {
+  } else if (weather.error && weather.error.code === 1006) {
     const errorInfo = document.createElement("p");
     errorInfo.classList.add("description");
-    errorInfo.innerText =
-      "An invalid value was specified. Write a valid city value and try again.";
+    errorInfo.innerText = "No matching location found.";
     weatherEl.insertBefore(errorInfo, extraInfoEl);
   } else {
-    let image = weather.current.weather_icons[0];
-    console.log(image);
-    let temp = weather.current.temperature;
-    let descp = weather.current.weather_descriptions[0];
+    let image = weather.current.condition.icon;
+    let temp = weather.current.temp_c;
+    let descp = weather.current.condition.text;
     let humidity = weather.current.humidity;
-    let windSpeed = weather.current.wind_speed;
+    let windSpeed = weather.current.wind_mph;
     let windDirection = weather.current.wind_dir;
     const weatherImage = document.createElement("img");
     weatherImage.src = image;
